@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "title": "PayWise",
+    "description": "Full-stack fintech solution ",
+    "image": "paywise.png",
+    "technologies": ["Next.js", "Clerk", "PostgreSQL", "TypeScript", "Turborepo", "Docker", "Node.js", "Express.js", "Prisma"],
+    "githubUrl": "https://github.com/virtuality0/paywise",
+    "liveUrl": "https://github.com/virtuality0/paywise",
+    "featured": true
+  },
+  {
+    "id": 2,
+    "title": "Nowted",
+    "description": "Simple note taking application",
+    "image": "Nowted.png",
+    "technologies": ["React", "Tailwind CSS", "PostgreSQL", "TypeScript", "Node.js", "Express.js", "Prisma"],
+    "githubUrl": "https://github.com/virtuality0/nowtedFrontend",
+    "liveUrl": "https://nowted-appp.web.app/signup",
+    "featured": true
+  },
+  {
+    "id": 3,
+    "title": "Second Brain",
+    "description": "Simple application to store your thoughts and ideas",
+    "image": "secondBrain.png",
+    "technologies": ["Typescript", "Node.js", "Express.js", "React", "MongoDB", "Mongoose"],
+    "githubUrl": "https://github.com/virtuality0/SecondBrain-Frontend",
+    "liveUrl": "https://second-brain-frontend-fwlq.vercel.app/",
+    "featured": true
+  }
+]
