@@ -35,9 +35,10 @@ export default function Hero() {
 
           <div className="space-y-4">
             <p className="text-xl md:text-2xl text-muted-foreground max-w-2xl mx-auto">
-              Passionate about creating innovative web solutions with modern
-              technologies. I build scalable applications that deliver
-              exceptional user experiences.
+              Hey, I’m Ayush — a software engineer focused on building scalable
+              backend systems, thoughtful APIs, and products that solve
+              real-world problems. I enjoy going deep into how things work, from
+              system design and databases to AI and everything in between.
             </p>
           </div>
 
@@ -55,7 +56,7 @@ export default function Hero() {
               </Button>
             </Link>
             <Link
-              href="https://drive.google.com/file/d/177FFcPqiuAcng13BJWph5qE1erxXkNHy/view?usp=sharing"
+              href="https://drive.google.com/file/d/1NpLupLarNduljm5bl_q4GfxowvvpdJq0/view?usp=sharing"
               target="_blank"
             >
               <Button variant="secondary" size="lg">

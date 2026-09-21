@@ -17,6 +17,32 @@ interface ExperienceItem {
 const experiences: ExperienceItem[] = [
   {
     id: 1,
+    company: "Saralweb",
+    position: "Software Development Engineer",
+    location: "Noida, Uttar Pradesh",
+    startDate: "Nov 2025",
+    endDate: "",
+    current: true,
+    description: [
+      "Build backend services for an AI-enabled multi-agent platform where user-facing agents coordinate with specialized agents through structured tool calls to execute application workflows.",
+      "Design agent orchestration flows and structured request/response contracts for agent-to-agent communication, context handoff, and downstream backend actions.",
+      "Develop and integrate APIs using Node.js, Python/FastAPI, and PostgreSQL, exposing backend capabilities that can be invoked reliably from AI-driven workflows.",
+      "Deliver end-to-end product features across backend services and the Vue.js frontend, integrating APIs, application workflows, and user-facing interfaces through testing and production release.",
+    ],
+    technologies: [
+      "Python",
+      "FastAPI",
+      "Vue.js",
+      "Node.js",
+      "Javascript",
+      "AWS",
+      "PostgreSQL",
+      "Redis",
+      "Swift",
+    ],
+  },
+  {
+    id: 2,
     company: "RemoteState",
     position: "Software Development Engineer",
     location: "Noida, Uttar Pradesh",
@@ -24,13 +50,24 @@ const experiences: ExperienceItem[] = [
     endDate: "Mar 2025",
     current: false,
     description: [
-      "Developed and maintained robust backend services using .NET and Node.js technology stacks, ensuring high performance and scalability of critical applications." ,
+      "Developed and maintained robust backend services using .NET and Node.js technology stacks, ensuring high performance and scalability of critical applications.",
       "Designed and integrated database solutions utilizing both MongoDB (NoSQL) and relational databases such as PostgreSQL , optimising for data integrity and complex query eﬃciency .",
       "Collaborated with front-end teams and contributed to the development of user-facing features , providing full-stack support where necessary .",
       "Implemented background jobs and task scheduling using Hangfire , and leveraged Redis for eﬃcient caching and real-time data processing .",
-      "Employed version control and team collaboration practices using Git , maintaining code quality and deployment workflows"
+      "Employed version control and team collaboration practices using Git , maintaining code quality and deployment workflows",
     ],
-    technologies: ["React", "Nest.js", "TypeScript", "AWS", "Docker", "PostgreSQL", "Hangfire", "Redis", "MongoDB", ".NET Core"]
+    technologies: [
+      "React",
+      "Nest.js",
+      "TypeScript",
+      "AWS",
+      "Docker",
+      "PostgreSQL",
+      "Hangfire",
+      "Redis",
+      "MongoDB",
+      ".NET Core",
+    ],
   },
 ];
 
@@ -39,7 +76,9 @@ export default function Experience() {
     <section id="experience" className="py-20 px-6">
       <div className="container mx-auto max-w-4xl">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold gradient-text mb-4">Work Experience</h2>
+          <h2 className="text-4xl md:text-5xl font-bold gradient-text mb-4">
+            Work Experience
+          </h2>
           <p className="text-xl text-muted-foreground">
             My professional journey and key achievements
           </p>
@@ -47,7 +86,10 @@ export default function Experience() {
 
         <div className="space-y-8">
           {experiences.map((exp) => (
-            <Card key={exp.id} className="modern-card hover:scale-105 transition-all duration-300">
+            <Card
+              key={exp.id}
+              className="modern-card hover:scale-105 transition-all duration-300"
+            >
               <CardHeader>
                 <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
                   <div>
@@ -55,14 +97,18 @@ export default function Experience() {
                       <Building className="h-5 w-5 text-primary" />
                       {exp.position}
                     </CardTitle>
-                    <p className="text-lg font-semibold text-primary mt-1">{exp.company}</p>
+                    <p className="text-lg font-semibold text-primary mt-1">
+                      {exp.company}
+                    </p>
                   </div>
                   <div className="flex flex-col md:items-end gap-2">
                     <div className="flex items-center text-muted-foreground text-sm">
                       <Calendar className="h-4 w-4 mr-1" />
                       {exp.startDate} - {exp.endDate}
                       {exp.current && (
-                        <Badge variant="secondary" className="ml-2">Current</Badge>
+                        <Badge variant="secondary" className="ml-2">
+                          Current
+                        </Badge>
                       )}
                     </div>
                     <div className="flex items-center text-muted-foreground text-sm">
@@ -75,7 +121,10 @@ export default function Experience() {
               <CardContent>
                 <ul className="space-y-2 mb-4">
                   {exp.description.map((item, idx) => (
-                    <li key={idx} className="text-muted-foreground flex items-start">
+                    <li
+                      key={idx}
+                      className="text-muted-foreground flex items-start"
+                    >
                       <span className="text-primary mr-2 mt-1">•</span>
                       {item}
                     </li>

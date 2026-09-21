@@ -4,7 +4,17 @@
     "title": "PayWise",
     "description": "Full-stack fintech solution ",
     "image": "paywise.png",
-    "technologies": ["Next.js", "Clerk", "PostgreSQL", "TypeScript", "Turborepo", "Docker", "Node.js", "Express.js", "Prisma"],
+    "technologies": [
+      "Next.js",
+      "Clerk",
+      "PostgreSQL",
+      "TypeScript",
+      "Turborepo",
+      "Docker",
+      "Node.js",
+      "Express.js",
+      "Prisma"
+    ],
     "githubUrl": "https://github.com/virtuality0/paywise",
     "liveUrl": "https://github.com/virtuality0/paywise",
     "featured": true
@@ -14,7 +24,15 @@
     "title": "Nowted",
     "description": "Simple note taking application",
     "image": "Nowted.png",
-    "technologies": ["React", "Tailwind CSS", "PostgreSQL", "TypeScript", "Node.js", "Express.js", "Prisma"],
+    "technologies": [
+      "React",
+      "Tailwind CSS",
+      "PostgreSQL",
+      "TypeScript",
+      "Node.js",
+      "Express.js",
+      "Prisma"
+    ],
     "githubUrl": "https://github.com/virtuality0/nowtedFrontend",
     "liveUrl": "https://nowted-appp.web.app/signup",
     "featured": true
@@ -24,9 +42,26 @@
     "title": "Second Brain",
     "description": "Simple application to store your thoughts and ideas",
     "image": "secondBrain.png",
-    "technologies": ["Typescript", "Node.js", "Express.js", "React", "MongoDB", "Mongoose"],
+    "technologies": [
+      "Typescript",
+      "Node.js",
+      "Express.js",
+      "React",
+      "MongoDB",
+      "Mongoose"
+    ],
     "githubUrl": "https://github.com/virtuality0/SecondBrain-Frontend",
     "liveUrl": "https://second-brain-frontend-fwlq.vercel.app/",
+    "featured": true
+  },
+  {
+    "id": 4,
+    "title": "Json Parser",
+    "description": "Json parser written in golang",
+    "image": "golang.webp",
+    "technologies": ["Golang"],
+    "githubUrl": "https://github.com/virtuality0/jsonParser.git",
+    "liveUrl": "https://github.com/virtuality0/jsonParser.git",
     "featured": true
   }
 ]
